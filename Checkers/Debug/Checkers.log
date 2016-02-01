@@ -1,21 +1,9 @@
-﻿Build started 11/26/2015 8:48:34 PM.
-     1>Project "C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Checkers\Checkers.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp Main.cpp
-         Main.cpp
-     1>c:\users\alejandro\dropbox\school\side projects\checkers\checkers\main.cpp(13): warning C4101: 'c' : unreferenced local variable
-         Board.cpp
-         Generating Code...
-     1>c:\users\alejandro\dropbox\school\side projects\checkers\checkers\board.cpp(419): warning C4715: 'Board::canPieceAttack' : not all control paths return a value
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Debug\Checkers.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Debug\Checkers.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Debug\Checkers.lib" /MACHINE:X86 Debug\Block.obj
-         Debug\Board.obj
-         Debug\Main.obj
-         Debug\Piece.obj
-         Debug\Tools.obj
-         Checkers.vcxproj -> C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Debug\Checkers.exe
-     1>Done Building Project "C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Checkers\Checkers.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:04.50
+﻿  Tools.cpp
+  Piece.cpp
+  Main.cpp
+c:\users\alejandro\dropbox\school\side projects\checkers\checkers\main.cpp(13): warning C4101: 'c': unreferenced local variable
+  Board.cpp
+  Block.cpp
+  Generating Code...
+c:\users\alejandro\dropbox\school\side projects\checkers\checkers\board.cpp(419): warning C4715: 'Board::canPieceAttack': not all control paths return a value
+  Checkers.vcxproj -> C:\Users\Alejandro\Dropbox\School\Side Projects\Checkers\Debug\Checkers.exe
